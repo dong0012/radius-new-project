@@ -6,7 +6,6 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
-import { Descriptions, List } from "antd";
 import { Metadata } from "next";
 import { title } from "process";
 

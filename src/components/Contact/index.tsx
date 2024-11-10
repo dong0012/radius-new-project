@@ -1,6 +1,48 @@
 import NewsLatterBox from "./NewsLatterBox";
+'use client';
+import React, { useRef, useState } from 'react';
+
 
 const Contact = () => {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [phone, setPhone] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [statusMessage, setStatusMessage] = useState('');
+
+  const handleSubmit = async (e:any) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setStatusMessage('');
+
+    const formData = {
+      name,
+      email,
+      message,
+      phone
+    }
+
+    try {
+      const res = await fetch('/api/sendEmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setStatusMessage('Email sent successfully!');
+      } else {
+        setStatusMessage('Failed to send email. Please try again.');
+      }
+    } catch (error) {
+      setStatusMessage('An error occurred. Please try again later.');
+    }
+
+    setIsSubmitting(false);
+  };
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -81,7 +123,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+                    <button onClick={handleSubmit} className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
                       Submit Ticket
                     </button>
                   </div>
