@@ -1,8 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import { Descriptions } from "antd";
-import { title } from "process";
 export default function CertifiedAffidavit() {
   const metaData = {
     title:"Expert Affidavit and Notary Services",
