@@ -8,6 +8,8 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 import { title } from "process";
+import pic from '../../public/images/home/background.png'
+import building from '../../public/images/home/f7219b5dbf2e4418859bbfcdeac67590.jpg'
 
 // export const metadata: Metadata = {
 //   title: "Free Next.js Template for Startup and SaaS",
@@ -20,13 +22,15 @@ export default function Home() {
     title:'We prepare maps of all types, including:',
     descriptions:'',
     listLeft:['Radius Maps',' Assessor’s Parcel Maps','Ownership Maps','Land Use Maps','Vicinity Maps'],
-    listRight:['Zoning Maps','Location Maps','Adjacent Owners Maps','Blank Maps','Assessor’s Parcel Maps']
+    listRight:['Zoning Maps','Location Maps','Adjacent Owners Maps','Blank Maps','Assessor’s Parcel Maps'],
+    pic:pic
   }
   const metaData2:any = {
     title:"We provide services to a variety of industries, including the following:",
     descriptions:"",
     listLeft:['New Business','Permit Expediters','Engineers','Land Surveyors'],
-    listRight:['Public Works','Government Agencies','Alcohol Beverage Control']
+    listRight:['Public Works','Government Agencies','Alcohol Beverage Control'],
+    pic:building
   }
   return (
     <>
