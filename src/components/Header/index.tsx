@@ -59,7 +59,7 @@ const Header = () => {
                   alt="logo"
                   width={80}
                   height={20}
-                  className="w-full dark:hidden h-12 w-auto"
+                  className="w-full h-12 w-auto"
                 />
             <span className="ml-2">RADIUSMAP4LESS</span>
 

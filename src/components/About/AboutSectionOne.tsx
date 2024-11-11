@@ -55,9 +55,8 @@ const AboutSectionOne = ({metaData,list}) => {
                   src={metaData.pic}
                   alt="about-image"
                   fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto max-w-full drop-shadow-three dark:drop-shadow-none lg:mr-0"
                 />
-                
               </div>
             </div>
           </div>
