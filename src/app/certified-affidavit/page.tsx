@@ -1,8 +1,8 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import pic from '../../../public/images/certified/WechatIMG543.jpg'
-import pic2 from '../../../public/images/certified/62f50c0c-4658-48b1-86fb-a5a10f9e0fc2.webp'
+import pic from '../../../public/images/certified/WechatIMG543.png'
+import pic2 from '../../../public/images/certified/62f50c0c-4658-48b1-86fb-a5a10f9e0fc2.png'
 export default function CertifiedAffidavit() {
   const metaData = {
     title:"Expert Affidavit and Notary Services",

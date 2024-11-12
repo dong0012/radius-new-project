@@ -1,9 +1,9 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import pic1 from '../../../public/images/property/WechatIMG573.jpeg'
-import pic2 from '../../../public/images/property/WechatIMG547.jpg'
-import pic3 from '../../../public/images/property/images.jpeg'
+import pic1 from '../../../public/images/property/WechatIMG573.png'
+import pic2 from '../../../public/images/property/WechatIMG547.png'
+import pic3 from '../../../public/images/property/images.png'
 export default function PropertyOwnership() {
   const metaData = {
     title:"Precision-Generated Property and Tenant Lists",

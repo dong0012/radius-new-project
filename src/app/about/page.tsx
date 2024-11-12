@@ -3,7 +3,7 @@ import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { title } from "process";
 import pic from '../../../public/images/about/about.png'
-import sectionTwoPic from '../../../public/images/about/WechatIMG542.jpg'
+import sectionTwoPic from '../../../public/images/about/WechatIMG542.png'
 
 
 const AboutPage = () => {

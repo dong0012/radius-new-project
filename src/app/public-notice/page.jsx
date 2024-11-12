@@ -1,8 +1,8 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import pic from "../../../public/images/publicNotice/f9654e69-bbe2-45d3-ad03-43a95ca6de89.webp"
-import pic2 from "../../../public/images/publicNotice/output.jpg"
+import pic from "../../../public/images/publicNotice/f9654e69-bbe2-45d3-ad03-43a95ca6de89.png"
+import pic2 from "../../../public/images/publicNotice/output.png"
 export default function PublicNotice() {
   const metaData = {
     title:"Public Notice Printing and Mailing",

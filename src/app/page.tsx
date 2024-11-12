@@ -9,7 +9,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 import { title } from "process";
 import pic from '../../public/images/home/background.png'
-import building from '../../public/images/home/f7219b5dbf2e4418859bbfcdeac67590.jpg'
+import building from '../../public/images/home/f7219b5dbf2e4418859bbfcdeac67590.png'
 
 // export const metadata: Metadata = {
 //   title: "Free Next.js Template for Startup and SaaS",

@@ -1,8 +1,8 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import pic from '../../../public/images/notarydocument/5441730990767_.pic_hd.jpg'
-import pic2 from '../../../public/images/notarydocument/5471730990778_.pic.jpg'
+import pic from '../../../public/images/notarydocument/5441730990767_.pic_hd.png'
+import pic2 from '../../../public/images/notarydocument/5471730990778_.pic.png'
 export default function NotaryDocument() {
   const metaData = {
     title:"Accurate Documentation and Certification Services",

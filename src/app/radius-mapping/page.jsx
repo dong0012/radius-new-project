@@ -2,8 +2,8 @@ import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import pic from '../../../public/images/radiusmapping/71d5232e-e4e6-43e0-8f50-fe4b1493b566.png'
-import picTwo from '../../../public/images/radiusmapping/81bb14ea-f47b-4999-a172-5c2253d39a0b.webp'
-import picThree from '../../../public/images/radiusmapping/WechatIMG573.jpg'
+import picTwo from '../../../public/images/radiusmapping/81bb14ea-f47b-4999-a172-5c2253d39a0b.png'
+import picThree from '../../../public/images/radiusmapping/WechatIMG573.png'
 export default function RadiusMapping() {
   const metaData = {
     title:"High-Quality Radius Maps for Diverse Applications",
