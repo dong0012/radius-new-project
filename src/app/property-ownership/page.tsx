@@ -1,13 +1,16 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import { title } from "process";
+import pic1 from '../../../public/images/property/WechatIMG573.jpeg'
+import pic2 from '../../../public/images/property/WechatIMG547.jpg'
+import pic3 from '../../../public/images/property/images.jpeg'
 export default function PropertyOwnership() {
   const metaData = {
     title:"Precision-Generated Property and Tenant Lists",
     description:"",
     listLeft:["Property Ownership Lists","Occupant Lists","Tenant Lists","List of residences","List of schools, parks, hospitals, churches, etc. List of alcohol establishments","List of Alcohol Establishments",'Alcoholic Beverage Control (ABC)',"AQMD",'more'],
-    listRight:[" Address Labels (gummed labels)","Excel","Word","Word Perfect","PDF","Affixed to Envelopes","AQMD","more"]
+    listRight:[" Address Labels (gummed labels)","Excel","Word","Word Perfect","PDF","Affixed to Envelopes","AQMD","more"],
+    pic:pic1
   }
   const contentData1 = [{
     title:'Property Mapping and Listing Services',
@@ -26,12 +29,12 @@ export default function PropertyOwnership() {
   return (
     <>
     <Breadcrumb
-      pageName="Radius Mapping"
+      pageName="Property Ownership and Occupant List"
       description=""
     />
-    <AboutSectionTwo contentData={contentData1}/>
+    <AboutSectionTwo contentData={contentData1} pic={pic2}/>
     <AboutSectionOne metaData={metaData} list={true}/>
-    <AboutSectionTwo contentData={contentData2}/>
+    <AboutSectionTwo contentData={contentData2} pic={pic3}/>
   </>
   );
 }

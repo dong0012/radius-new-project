@@ -1,7 +1,8 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import { title } from "process";
+import pic from "../../../public/images/publicNotice/f9654e69-bbe2-45d3-ad03-43a95ca6de89.webp"
+import pic2 from "../../../public/images/publicNotice/output.jpg"
 export default function PublicNotice() {
   const metaData = {
     title:"Public Notice Printing and Mailing",
@@ -20,7 +21,8 @@ export default function PublicNotice() {
       "Registered Mailing",
       "In-Person",
       "Postmarked"
-    ]
+    ],
+    pic:pic2
   }
   const contentData1 = [{
     title:'Certified Public Notice Lists',
@@ -32,17 +34,13 @@ export default function PublicNotice() {
     title:"Trusted Public Notice Solutions",
     description:"At L.A. Mapping Service, we offer certified, reliable, and compliant public notice solutions, ensuring that all notices meet legal and regulatory standards with precision and verification."
   }]
-  // const contentData2 = [{
-  //   title:'',
-  //   description:'Our commitment to delivering user-friendly, accurate maps makes them not just tools for analysis but also instruments for strategic decision-making. Choose Radius Map 4 Less, Inc. for Radius Maps that blend precision with practicality, catering to a broad spectrum of professional mapping needs.'
-  // }]
   return (
     <>
     <Breadcrumb
-      pageName="Radius Mapping"
+      pageName="Public Notice Printing and Mailing"
       description=""
     />
-    <AboutSectionTwo contentData={contentData1}/>
+    <AboutSectionTwo contentData={contentData1} pic={pic}/>
     <AboutSectionOne metaData={metaData} list={true}/>
 
     {/* <AboutSectionTwo contentData={contentData2}/> */}

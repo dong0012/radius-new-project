@@ -1,6 +1,8 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import pic from '../../../public/images/notarydocument/5441730990767_.pic_hd.jpg'
+import pic2 from '../../../public/images/notarydocument/5471730990778_.pic.jpg'
 export default function NotaryDocument() {
   const metaData = {
     title:"Accurate Documentation and Certification Services",
@@ -19,7 +21,8 @@ export default function NotaryDocument() {
       "Registered Mailing",
       "In-Person",
       "Postmarked"
-    ]
+    ],
+    pic
   }
   const contentData1 = [{
     title:'Notary and Document Certification Services',
@@ -38,10 +41,10 @@ export default function NotaryDocument() {
   return (
     <>
     <Breadcrumb
-      pageName="Radius Mapping"
+      pageName="Notary and Document Certification"
       description=""
     />
-    <AboutSectionTwo contentData={contentData1}/>
+    <AboutSectionTwo contentData={contentData1} pic={pic2}/>
     <AboutSectionOne metaData={metaData} list={false}/>
     {/* <AboutSectionTwo contentData={contentData2}/> */}
   </>

@@ -1,12 +1,15 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import pic from '../../../public/images/certified/WechatIMG543.jpg'
+import pic2 from '../../../public/images/certified/62f50c0c-4658-48b1-86fb-a5a10f9e0fc2.webp'
 export default function CertifiedAffidavit() {
   const metaData = {
     title:"Expert Affidavit and Notary Services",
     description:"We provide certified affidavits for all lists, confirming their accuracy and sourcing from the most current county assessor’s roll. Additionally, we verify occupant and tenant information to ensure its reliability. Notary services are available when required, especially for affidavits needing certification by city or county agencies.",
     listLeft:[],
-    listRight:[]
+    listRight:[],
+    pic:pic2
   }
   const contentData1 = [{
     title:'Certified Affidavit Services',
@@ -25,10 +28,10 @@ export default function CertifiedAffidavit() {
   return (
     <>
     <Breadcrumb
-      pageName="Radius Mapping"
+      pageName="Certified Affidavit Preparation"
       description=""
     />
-    <AboutSectionTwo contentData={contentData1}/>
+    <AboutSectionTwo contentData={contentData1} pic={pic}/>
     <AboutSectionOne metaData={metaData} list={false}/>
     {/* <AboutSectionTwo contentData={contentData2}/> */}
   </>

@@ -1,13 +1,16 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import { title } from "process";
+import pic from '../../../public/images/radiusmapping/71d5232e-e4e6-43e0-8f50-fe4b1493b566.png'
+import picTwo from '../../../public/images/radiusmapping/81bb14ea-f47b-4999-a172-5c2253d39a0b.webp'
+import picThree from '../../../public/images/radiusmapping/WechatIMG573.jpg'
 export default function RadiusMapping() {
   const metaData = {
     title:"High-Quality Radius Maps for Diverse Applications",
     description:"Radius Map 4 Less, Inc. offers High-Quality Radius Maps, a vital tool for a multitude of applications spanning from urban development to environmental analysis.",
     listLeft:[],
-    listRight:[]
+    listRight:[],
+    pic:pic
   }
   const contentData1 = [{
     title:'',
@@ -24,8 +27,8 @@ export default function RadiusMapping() {
       description=""
     />
     <AboutSectionOne metaData={metaData} list={false}/>
-    <AboutSectionTwo contentData={contentData1}/>
-    <AboutSectionTwo contentData={contentData2}/>
+    <AboutSectionTwo contentData={contentData1} pic={picTwo}/>
+    <AboutSectionTwo contentData={contentData2} pic={picThree}/>
   </>
   );
 }

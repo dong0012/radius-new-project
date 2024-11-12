@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const AboutSectionTwo = ({contentData}) => {
+const AboutSectionTwo = ({contentData,pic}) => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -11,7 +11,7 @@ const AboutSectionTwo = ({contentData}) => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about.png"
+                src={pic}
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
