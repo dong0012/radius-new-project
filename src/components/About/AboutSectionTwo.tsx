@@ -14,7 +14,7 @@ const AboutSectionTwo = ({contentData,pic}) => {
                 src={pic}
                 alt="about image"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                className="drop-shadow-three dark:drop-shadow-none"
               />
             </div>
           </div>
