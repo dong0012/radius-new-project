@@ -5,11 +5,6 @@ import Hero from "@/components/Hero";
 import pic from '../../public/images/home/027abe4ba614b245f5815a0dd54aad59.png'
 import building from '../../public/images/home/f7219b5dbf2e4418859bbfcdeac67590.png'
 
-// export const metadata: Metadata = {
-//   title: "Free Next.js Template for Startup and SaaS",
-//   description: "This is Home for Startup Nextjs Template",
-//   // other metadata
-// };
 
 export default function Home() {
   const metaData1 = {
