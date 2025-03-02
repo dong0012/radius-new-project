@@ -50,7 +50,7 @@ const AboutSectionOne = ({metaData,list}) => {
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+              <div className="relative mx-auto aspect-[25/24]  lg:mr-0">
                 <Image
                   src={metaData.pic}
                   alt="about-image"

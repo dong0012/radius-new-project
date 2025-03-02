@@ -1,14 +1,8 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import ScrollUp from "@/components/Common/ScrollUp";
-import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
-import { Metadata } from "next";
-import { title } from "process";
-import pic from '../../public/images/home/background.png'
+import pic from '../../public/images/home/027abe4ba614b245f5815a0dd54aad59.png'
 import building from '../../public/images/home/f7219b5dbf2e4418859bbfcdeac67590.png'
 
 // export const metadata: Metadata = {
