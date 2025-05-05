@@ -40,13 +40,9 @@ const Footer = () => {
                 Contact Info
                 </h2>
                 <ul>
-                  <li>
-                  Radius Map 4 Less, Inc
-                  1073 Kendall Drive
-                  San Gabriel, CA 91775
-                  3237444177
-                  radiusmap4less@gmail.com
-                  </li>
+                  <li>1073 Kendall Drive San Gabriel, CA 91775</li>
+                  <li>3237444177</li>
+                  <li>radiusmap4less@gmail.com</li>
                 </ul>
               </div>
             </div>
