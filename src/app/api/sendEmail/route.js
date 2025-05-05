@@ -7,20 +7,20 @@ export async function POST(req) {
 
   // 创建邮件发送器
   const transporter = nodemailer.createTransport({
-    host: 'smtp.163.com',
     port: 465,
+    host: 'smtp.gmail.com',
     secure: true,  // 465端口使用SSL加密
     auth: {
-      user: 'dyy811131507@163.com',  // 发送者邮箱
-      pass: 'YEfyiA45jz8s7Qga'  // 发送者邮箱的授权码
+      user: 'radiusmap4less@gmail.com',  // 发送者邮箱
+      pass: 'czgt qooa uodf frkb'  // 发送者邮箱的授权码
     }
   });
 
   try {
     // 配置邮件内容
     await transporter.sendMail({
-      from: 'dyy811131507@163.com',  // 发件人地址
-      to: 'dyy811131507@163.com',    // 收件人地址
+      from: 'radiusmap4less@gmail.com',  // 发件人地址
+      to: 'radiusmap4less@gmail.com',    // 收件人地址
       subject: `New message from ${name}`,  // 邮件主题
       text: `You have received a new message from ${name} (${email}):
   
