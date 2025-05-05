@@ -44,8 +44,8 @@ const Footer = () => {
                   Radius Map 4 Less, Inc
                   1073 Kendall Drive
                   San Gabriel, CA 91775
-                  626-383-5050
-                  support@radiusmap4less.com
+                  3237444177
+                  radiusmap4less@gmail.com
                   </li>
                 </ul>
               </div>
